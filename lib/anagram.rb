@@ -16,6 +16,6 @@ class Anagram
   end
 
   def match(anagrams)
-    anagrams.detect{|a| a.split.sort == posiible_anagram.split.sort}
+    anagrams.detect{|a| a.split().sort == posiible_anagram.split().sort}
   end
 end
