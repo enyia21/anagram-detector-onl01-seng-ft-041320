@@ -21,3 +21,6 @@ class Anagram
     anagrams.detect{|a| a.split().sort == posiible_anagram.split().sort}
   end
 end
+
+simple_anagram = Anagram.new("ba")
+simple_anagram.match(%w("ha" "ba" "bugger" "nope"))
