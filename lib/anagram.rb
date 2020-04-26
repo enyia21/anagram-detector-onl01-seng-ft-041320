@@ -4,7 +4,7 @@ class Anagram
 
   def initalize(anagram_input)
     @anagram_possibility = anagram_input
-    
+
   end
 
   def possible_anagram
@@ -18,4 +18,4 @@ class Anagram
   def match(anagrams)
     anagrams.detect{|a| a.split.sort == posiible_anagram.split.sort}
   end
-end 
+end
