@@ -1,4 +1,5 @@
 # Your code goes here!
+require "pry"
 class Anagram
   attr_accessor :possible_anagram
 
@@ -16,6 +17,7 @@ class Anagram
   end
 
   def match(anagrams)
+    binding.pry
     anagrams.detect{|a| a.split().sort == posiible_anagram.split().sort}
   end
 end
