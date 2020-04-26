@@ -3,7 +3,7 @@ require "pry"
 class Anagram
   attr_accessor :possible_anagram
 
-  def initalize(anagram_input)
+  def initalize(anagram_input="")
     @anagram_possibility = anagram_input
 
   end
