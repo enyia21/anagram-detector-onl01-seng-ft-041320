@@ -18,7 +18,7 @@ class Anagram
 
   def match(anagrams)
     # binding.pry
-    anagrams.detect{|a| a.split("").sort == possible_anagram.split("").sort}
+    anagrams.collect{|a| a.split("").sort == possible_anagram.split("").sort}
   end
 end
 
