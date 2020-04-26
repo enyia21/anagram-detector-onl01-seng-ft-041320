@@ -22,5 +22,5 @@ class Anagram
   end
 end
 
-simple_anagram = Anagram.new("ba")
-simple_anagram.match(%w("ha" "ba" "bugger" "nope"))
+# simple_anagram = Anagram.new("ba")
+# simple_anagram.match(%w("ha" "ba" "bugger" "nope"))
